@@ -46,6 +46,11 @@ dependencies {
     runtimeOnly rfg.deobf('curse.maven:ftb-utilities-forge-237102:3157548')
     
     implementation rfg.deobf("dev.galacticraft:Galacticraft-1.12.2-4.0.5")
+
+    implementation rfg.deobf('libs:buildcraft-all-7.99.24.8')
+
+    compileOnly rfg.deobf('libs:Mekanism-1.12.2-9.8.3.390')
+    compileOnly rfg.deobf('libs:industrialcraft-2-2.8.222-ex112')
     // Crafttweaker
     //implementation rfg.deobf("curse.maven:mtlib-253211:3308160")
     //implementation rfg.deobf("CraftTweaker2:CraftTweaker2-MC1120-Main:${project.version_crafttweaker}")
