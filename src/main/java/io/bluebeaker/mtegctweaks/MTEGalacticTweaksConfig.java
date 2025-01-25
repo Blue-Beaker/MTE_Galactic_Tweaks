@@ -11,12 +11,13 @@ public class MTEGalacticTweaksConfig {
     @LangKey("config.mtegctweaks.universalFluidEjection.name")
     public static boolean universalFluidEjection = true;
 
-    @Comment({"Change what tier of EU power can be inserted to GC blocks without exploding.",
-            " GC default is 3 (512EU)."})
+    @Comment({"Change the voltage of EU power can be inserted to GC blocks without exploding.",
+            "GC default is 3 (512EU)."})
     @LangKey("config.mtegctweaks.EUTierForGC.name")
     public static int EUTierForGC = 5;
 
-    @Comment({"When receiving energy from IC2, use IC2 voltage to boost machines.","Aluminum wires are capped at tier 2."})
+    @Comment({"When importing power from IC2, IC2 voltage >=2V can now boost GC machines.",
+            "GC wires are capped at 2V. Use IC2 cables for higher tiers and better speed."})
     @LangKey("config.mtegctweaks.ic2EnergyTierFix.name")
     public static boolean ic2EnergyTierFix = true;
     @Comment({"Same as above, but for IC2 batteries."})

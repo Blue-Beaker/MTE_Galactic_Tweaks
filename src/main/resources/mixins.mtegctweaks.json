@@ -1,6 +1,6 @@
 {
   "package": "io.bluebeaker.mtegctweaks.mixin",
-  "required": true,
+  "required": false,
   "refmap": "${mixin_refmap}",
   "target": "@env(DEFAULT)",
   "minVersion": "0.8.5",
