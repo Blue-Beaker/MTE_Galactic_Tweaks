@@ -1,7 +1,7 @@
 package io.bluebeaker.mtegctweaks.mixin;
 
 import io.bluebeaker.mtegctweaks.AdapterDummyNetwork;
-import micdoodle8.mods.galacticraft.api.vector.BlockVec3;
+import io.bluebeaker.mtegctweaks.MTEGalacticTweaksConfig;
 import micdoodle8.mods.galacticraft.core.fluid.FluidNetwork;
 import micdoodle8.mods.galacticraft.core.fluid.NetworkHelper;
 import net.minecraft.tileentity.TileEntity;
@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class MixinNetworkHelper {
     @Inject(method = "getFluidNetworkFromTile(Lnet/minecraft/tileentity/TileEntity;Lnet/minecraft/util/EnumFacing;)Lmicdoodle8/mods/galacticraft/core/fluid/FluidNetwork;",at = @At("TAIL"),cancellable = true)
     private static void addAdaptationNetwork(TileEntity tileEntity, EnumFacing approachDirection, CallbackInfoReturnable<FluidNetwork> cir){
-        if(cir.getReturnValue()!=null) return;
+        if(!MTEGalacticTweaksConfig.universalFluidEjection || cir.getReturnValue()!=null) return;
 
         if(tileEntity!=null && tileEntity.hasCapability(CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY,approachDirection.getOpposite())){
             cir.setReturnValue(new AdapterDummyNetwork(tileEntity,approachDirection.getOpposite()));

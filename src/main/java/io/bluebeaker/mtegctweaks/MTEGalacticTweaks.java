@@ -2,7 +2,6 @@ package io.bluebeaker.mtegctweaks;
 
 import org.apache.logging.log4j.Logger;
 
-import io.bluebeaker.mtegctweaks.Tags;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.ConfigManager;
