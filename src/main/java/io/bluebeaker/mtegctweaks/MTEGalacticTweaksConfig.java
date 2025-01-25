@@ -7,7 +7,7 @@ import net.minecraftforge.common.config.Config.Type;
 
 @Config(modid = MTEGalacticTweaks.MODID,type = Type.INSTANCE,category = "general")
 public class MTEGalacticTweaksConfig {
-    @Comment("Example")
-    @LangKey("config.mtegctweaks.example.name")
-    public static boolean example = true;
+    @Comment("When enabled, GC machines will eject fluids in its output to all forge-capable blocks, like tanks and pipes from other mods.")
+    @LangKey("config.mtegctweaks.universalFluidEjection.name")
+    public static boolean universalFluidEjection = true;
 }

@@ -68,7 +68,7 @@ public class AdapterDummyNetwork extends FluidNetwork {
 
     @Override
     public int getCapacity() {
-        return 10000;
+        return Integer.MAX_VALUE;
     }
 
     @Override
@@ -99,7 +99,7 @@ public class AdapterDummyNetwork extends FluidNetwork {
 
     @Override
     public float getScale() {
-        return super.getScale();
+        return 0;
     }
 
     @Override
