@@ -9,3 +9,5 @@ Change the voltage of EU power can be inserted to GC blocks without exploding. D
 #### IC2 Input Power Tier Fix
 When importing power from IC2, IC2 voltage >=2V can now boost GC machines.  
 GC wires are capped at 2V. Use IC2 cables for higher tiers and better speed.  
+#### Gas Liquefier Facing Fix
+Fix the side to pull fluid from the liquefier.  

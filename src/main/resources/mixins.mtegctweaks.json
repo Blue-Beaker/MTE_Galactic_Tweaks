@@ -6,9 +6,10 @@
   "minVersion": "0.8.5",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinGasLiquefier",
     "MixinNetworkHelper",
-    "MixinTileElectrical",
-    "MixinTileConductor"
+    "MixinTileConductor",
+    "MixinTileElectrical"
   ],
   "server": [],
   "client": []

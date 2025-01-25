@@ -20,7 +20,12 @@ public class MTEGalacticTweaksConfig {
             "GC wires are capped at 2V. Use IC2 cables for higher tiers and better speed."})
     @LangKey("config.mtegctweaks.ic2EnergyTierFix.name")
     public static boolean ic2EnergyTierFix = true;
+
     @Comment({"Same as above, but for IC2 batteries."})
     @LangKey("config.mtegctweaks.ic2EnergyTierFixBattery.name")
     public static boolean ic2EnergyTierFixBattery = true;
+
+    @Comment({"Fix the side to pull fluid from the liquefier."})
+    @LangKey("config.mtegctweaks.gasLiquefierFluidFacingFix.name")
+    public static boolean gasLiquefierFluidFacingFix = true;
 }
