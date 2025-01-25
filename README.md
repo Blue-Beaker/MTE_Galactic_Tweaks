@@ -1,5 +1,5 @@
 ## MTE Galactic Tweaks
-Functional tweaks for Galacticraft.  
+Cross-mod compatibility tweaks for Galacticraft.  
 All features are configurable.  
 ### Features
 #### Universal Fluid Ejection
