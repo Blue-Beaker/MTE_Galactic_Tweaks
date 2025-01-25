@@ -1,1 +1,4 @@
 config.mtegctweaks.universalFluidEjection.name=Universal Fluid Ejection
+config.mtegctweaks.EUTierForGC.name=EU Power Tier for GC blocks
+config.mtegctweaks.ic2EnergyTierFix.name=IC2 Input Tier Fix
+config.mtegctweaks.ic2EnergyTierFixBattery.name=IC2 Battery Tier Fix
