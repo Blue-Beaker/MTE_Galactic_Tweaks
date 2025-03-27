@@ -12,5 +12,7 @@
     "MixinTileElectrical"
   ],
   "server": [],
-  "client": []
+  "client": [
+    "MixinGuiSlimeling"
+  ]
 }

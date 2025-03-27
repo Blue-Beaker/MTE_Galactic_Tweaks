@@ -28,4 +28,8 @@ public class MTEGalacticTweaksConfig {
     @Comment({"Fix the side to pull fluid from the liquefier."})
     @LangKey("config.mtegctweaks.gasLiquefierFluidFacingFix.name")
     public static boolean gasLiquefierFluidFacingFix = true;
+
+    @Comment({"In slimeling GUI, do not autofocus the textbox."})
+    @LangKey("config.mtegctweaks.slimelingGuiTweaks.name")
+    public static boolean slimelingGuiTweaks = true;
 }

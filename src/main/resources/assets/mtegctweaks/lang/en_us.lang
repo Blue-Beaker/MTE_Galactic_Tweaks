@@ -3,3 +3,4 @@ config.mtegctweaks.EUTierForGC.name=EU Power Tier for GC blocks
 config.mtegctweaks.ic2EnergyTierFix.name=IC2 Input Tier Fix
 config.mtegctweaks.ic2EnergyTierFixBattery.name=IC2 Battery Tier Fix
 config.mtegctweaks.gasLiquefierFluidFacingFix.name=Gas Liquefier Facing Fix
+config.mtegctweaks.slimelingGuiTweaks.name=Slimeling GUI Tweaks
