@@ -11,3 +11,5 @@ When importing power from IC2, IC2 voltage >=2V can now boost GC machines.
 GC wires are capped at 2V. Use IC2 cables for higher tiers and better speed.  
 #### Gas Liquefier Facing Fix
 Fix the side to pull fluid from the liquefier.  
+#### Slimeling GUI Tweak
+In slimeling GUI, do not autofocus the textbox, and make it possible to close the GUI with a press of 'E'.  
