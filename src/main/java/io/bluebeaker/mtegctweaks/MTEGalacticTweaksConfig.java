@@ -32,4 +32,8 @@ public class MTEGalacticTweaksConfig {
     @Comment({"In slimeling GUI, do not autofocus the textbox."})
     @LangKey("config.mtegctweaks.slimelingGuiTweaks.name")
     public static boolean slimelingGuiTweaks = true;
+
+    @Comment({"Disable GC's own fluid Buckets, replacing them with forge buckets."})
+    @LangKey("config.mtegctweaks.forgeBuckets.name")
+    public static boolean forgeBuckets = false;
 }

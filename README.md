@@ -13,3 +13,5 @@ GC wires are capped at 2V. Use IC2 cables for higher tiers and better speed.
 Fix the side to pull fluid from the liquefier.  
 #### Slimeling GUI Tweak
 In slimeling GUI, do not autofocus the textbox, and make it possible to close the GUI with a press of 'E'.  
+#### Universal buckets
+(Disabled by default) Replace GC buckets with forge ones, to fix problems with other mods.  
