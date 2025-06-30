@@ -11,7 +11,8 @@
     "MixinGasLiquefier",
     "MixinNetworkHelper",
     "MixinTileConductor",
-    "MixinTileElectrical"
+    "MixinTileElectrical",
+    "MixinTileEntityGasLiquefier"
   ],
   "server": [],
   "client": [

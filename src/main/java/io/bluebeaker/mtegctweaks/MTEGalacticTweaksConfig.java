@@ -36,4 +36,8 @@ public class MTEGalacticTweaksConfig {
     @Comment({"Disable GC's own fluid Buckets, replacing them with forge buckets."})
     @LangKey("config.mtegctweaks.forgeBuckets.name")
     public static boolean forgeBuckets = false;
+
+    @Comment({"Fix Gas Liquefier inventory size, which causes IndexOutOfBounds crash when trying to extract item from it."})
+    @LangKey("config.mtegctweaks.fixInventorySize.name")
+    public static boolean fixInventorySize = true;
 }
