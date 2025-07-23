@@ -40,4 +40,9 @@ public class MTEGalacticTweaksConfig {
     @Comment({"Fix Gas Liquefier inventory size, which causes IndexOutOfBounds crash when trying to extract item from it."})
     @LangKey("config.mtegctweaks.fixInventorySize.name")
     public static boolean fixInventorySize = true;
+
+    @Config.RequiresMcRestart
+    @Comment({"Disable rendering of GalactiCraft equipments. May increase FPS."})
+    @LangKey("config.mtegctweaks.hideEquipments.name")
+    public static boolean hideEquipments = false;
 }

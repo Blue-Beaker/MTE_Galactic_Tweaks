@@ -16,6 +16,7 @@
   ],
   "server": [],
   "client": [
-    "MixinGuiSlimeling"
+    "MixinGuiSlimeling",
+    "MixinRenderPlayerGC"
   ]
 }

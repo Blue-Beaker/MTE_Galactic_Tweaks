@@ -6,3 +6,4 @@ config.mtegctweaks.gasLiquefierFluidFacingFix.name=Gas Liquefier Facing Fix
 config.mtegctweaks.slimelingGuiTweaks.name=Slimeling GUI Tweaks
 config.mtegctweaks.forgeBuckets.name=Universal buckets
 config.mtegctweaks.fixInventorySize.name=Fix Machine Inventory Size
+config.mtegctweaks.hideEquipments.name=Hide Galactic Equipments
