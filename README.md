@@ -18,3 +18,5 @@ In slimeling GUI, do not autofocus the textbox, and make it possible to close th
 (Disabled by default) Replace GC buckets with forge ones, to fix problems with other mods.  
 #### Hide GC Equipments
 (Disabled by default) Hide GalactiCraft equipments by disabling their rendering. May also increase FPS.  
+#### Arc Furnace Recipes
+Add JEI Category to show Arc Furnace ore doubling recipes  

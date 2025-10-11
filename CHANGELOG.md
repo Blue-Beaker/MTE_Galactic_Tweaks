@@ -13,3 +13,5 @@ No longer needed on both sides to work (but some features may be broken)
 Added feature to hide GalactiCraft equipments  
 # 1.0.6
 Reworked the "Gas Liquifier's inventory size" patch, fix client crash when shift-clicking out items  
+# 1.1.0
+Add JEI Category for Arc Furnace Recipes  
