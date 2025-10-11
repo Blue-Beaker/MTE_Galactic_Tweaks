@@ -22,12 +22,6 @@ public abstract class MixinTileEntityGasLiquefier extends TileEntityInventory {
     public MixinTileEntityGasLiquefier(String tileName) {
         super(tileName);
     }
-//    @Inject(method = "<init>",at = @At("RETURN"))
-//    public void initGasLiquefier(CallbackInfo ci){
-//        if(fixInventorySize){
-//            this.inventory = NonNullList.withSize(4, ItemStack.EMPTY);
-//        };
-//    }
 
     @Inject(method = "Lmicdoodle8/mods/galacticraft/planets/mars/tile/TileEntityGasLiquefier;getSlotsForFace(Lnet/minecraft/util/EnumFacing;)[I",at = @At("RETURN"),remap = true, cancellable = true)
     public void initGasLiquefier(EnumFacing side, CallbackInfoReturnable<int[]> cir){
@@ -35,6 +29,6 @@ public abstract class MixinTileEntityGasLiquefier extends TileEntityInventory {
             int[] returnValue = cir.getReturnValue();
             int[] modifiedValue = Arrays.stream(returnValue).filter((num) -> num < 3).toArray();
             cir.setReturnValue(modifiedValue);
-        };
+        }
     }
 }
