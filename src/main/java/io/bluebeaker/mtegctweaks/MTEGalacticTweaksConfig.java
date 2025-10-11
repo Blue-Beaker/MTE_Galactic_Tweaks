@@ -45,4 +45,9 @@ public class MTEGalacticTweaksConfig {
     @Comment({"Disable rendering of GalactiCraft equipments. May increase FPS."})
     @LangKey("config.mtegctweaks.hideEquipments.name")
     public static boolean hideEquipments = false;
+
+    @Config.RequiresMcRestart
+    @Comment({"Show ore doubling recipes in JEI for arc furnace."})
+    @LangKey("config.mtegctweaks.arcFurnaceRecipes.name")
+    public static boolean arcFurnaceRecipes = true;
 }
